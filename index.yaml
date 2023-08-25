@@ -1,0 +1,8 @@
+runtime: nodejs16  # Use the Node.js runtime version you prefer
+
+env_variables:
+  NODE_ENV: production  # Set the Node.js environment to production or the desired environment
+
+handlers:
+- url: /.*
+  script: auto
